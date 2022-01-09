@@ -1,0 +1,36 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Namaste"],
+         "responses": ["Hello, This is ABC- Artificial Bot for Chandigarh University. How may I help you?", "ABC in your service.", "Hi there, how can ABC help you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for using ABC.", "Have a nice day", "Bye! Come back to ABC."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","okay"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "open",
+         "patterns": ["What hours are you open?", "Is CU Open?", "When are you open?" ],
+         "responses": ["Sorry but CU is closed due to Government Guidelines. Hoping for good."]
+        },
+        {"tag": "online",
+         "patterns": ["How to take online class?", "What about online classes?", "How are classes going right now?" ],
+         "responses": ["CU is operating online classes on Blackboard platform.", "Regular classes are being held on blackboard platform."]
+        },
+        {"tag": "help",
+         "patterns": ["I have a problem?", "Help me.", "I want to talk to real person." ],
+         "responses": ["You can reach us by dropping a mail. Our mail is studentcare@cumail.in","Reach us by Student Center option on CUIMS."]
+        },
+        {"tag": "CUIMS",
+         "patterns": ["Login on CUIMS", "Show my CUIMS", "Open Cuims","CUIMS","Login"],
+         "responses": ["Open CUIMS by clicking https://uims.cuchd.in/uims/", "Here it is- https://uims.cuchd.in/uims/"]
+        },
+        {"tag": "Blackboard",
+         "patterns": ["BB","Blackboard","Open blackboard" ],
+         "responses": ["Open blackboard - https://cuchd.blackboard.com", "Click - https://cuchd.blackboard.com"]
+        }
+   ]
+}
