@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  cursor: pointer;
+
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  margin-right: -0.5em;
+  background: url("https://img.icons8.com/ios/36/ffffff/multiply.png") no-repeat;
+}
+
+input[type="search"]::-webkit-search-cancel-button:hover{
+  background: rgba(128, 128, 128, 0.2);
+  background-image: url("https://img.icons8.com/ios/36/ffffff/multiply.png");
+}
+
+aside::-webkit-scrollbar{
+  visibility: hidden;
+  width: 8px;
+}
+
+aside:hover::-webkit-scrollbar-thumb{
+  display: inherit;
+  background: rgb(80, 80, 80);
+  border-radius: 100px;
+  width: 4px;
+}
