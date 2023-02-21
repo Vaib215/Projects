@@ -12,7 +12,7 @@ import {TbHanger2} from 'react-icons/tb'
 
 const SideBarExtended = () => {
   return (
-    <aside className='mt-16 w-64 h-[90vh] overflow-auto mr-auto'>
+    <aside className='fixed mt-16 w-64 h-[90vh] overflow-auto mr-auto'>
       <ul className='flex flex-col mx-3'>
         <NavList active icon={<MdHomeFilled size={24}/>}>Home</NavList>
         <NavList icon={<FcFilmReel size={24}/>}>Shorts</NavList>

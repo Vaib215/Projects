@@ -29,3 +29,42 @@ aside:hover::-webkit-scrollbar-thumb{
   border-radius: 100px;
   width: 4px;
 }
+
+.thumb{
+  position: relative;
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb::before{
+  content: attr(data-duration);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0.25em;
+  font-size: 0.85em;
+  padding: 0.0125em 0.25em;
+  border-radius: 0.25em;
+  background-color: #000000d6;
+}
+
+.thumb:hover::before{
+  content: 'Keep hovering to play';
+}
+
+.videos::-webkit-scrollbar{
+  width: 8px;
+}
+
+.videos::-webkit-scrollbar-thumb{ 
+  display: inherit;
+  background: rgb(120, 120, 120);
+  border-radius: 100px;
+  width: 4px;
+}
+
+.videos::-webkit-scrollbar-thumb:hover{
+  background: rgb(80, 80, 80);
+}

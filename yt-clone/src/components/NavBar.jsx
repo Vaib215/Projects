@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="fixed w-full bg-[#0f0f0f] top-0 px-4 py-2 flex items-center justify-between">
+    <nav className="fixed z-10 w-full bg-[#0f0f0f] top-0 px-4 py-2 flex items-center justify-between">
       <div className="left-nav flex gap-4">
         <img className="w-10 p-2 rounded-full hover:bg-gray-500 cursor-pointer hover:bg-opacity-25" src="https://img.icons8.com/ios-filled/50/ffffff/menu-rounded.png" />
         <a href='/' className="logo flex items-center gap-2 ">
